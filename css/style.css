@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #5e4d4d;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(127, 255, 212);
+    height: 80px;
+    padding: 0 20px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    transition: all ease 0.2s;
+    color: blueviolet;
+}
+
+.container {
+    height: 50vh;
+    color: white;
+}
+
+div {
+    height: 94vh;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#green {
+    background-color: green;
+}
+
+#gray {
+    background-color: gray;
+}
+
+main {
+    height: 94vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    width: 500px;
+    max-width: 100%;
+    align-items: center;
+    overflow-y: scroll;
+    gap: 20px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+picture {
+    background-color: rgb(50, 10, 88);
+    padding: 30px;
+    border-radius: 30px;
+}
+
+figcaption {
+    color: #fff;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+div::-webkit-scrollbar {
+    height: 10px;
+}
+div::-webkit-scrollbar-thumb {
+    background-color: orangered;
+}
